@@ -1,3 +1,3 @@
 # EbebekPracticum
 
-In order to show payment of employement, it was written.
+it was written in order to show payment of employees.

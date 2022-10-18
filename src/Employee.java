@@ -61,7 +61,7 @@ public class Employee {
                 "\nVergi = " + tax() + " tl" +
                 "\nBonus = " + bonus() + " tl" +
                 "\nVergi ve Bonus ile birlikte maaş = " + getNetSalaryWithoutRise() + " tl" +
-                "\nMaaş artışı = " + raiseSalary() + " tl" +
+                "\nMaaş Artışı = " + raiseSalary() + " tl" +
                 "\nToplam Maaşı = " + totalSalary() + " tl" ;
 
     }

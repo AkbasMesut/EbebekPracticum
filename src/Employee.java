@@ -77,8 +77,7 @@ public class Employee {
         System.out.println("employee1 = " + employee1);
         System.out.println();
         System.out.println("employee2 = " + employee2);
-        System.out.println();
-        System.out.println("employee3 = " + employee3);
+
 
 
     }

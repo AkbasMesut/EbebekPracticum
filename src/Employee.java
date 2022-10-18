@@ -54,17 +54,15 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "{" +
-                "Adı = " + name +
-                ", maaş = " + salary +
-                ", çalışma saati = " + workHours +
-                ", başlangıç yılı = " + hireYear +
-                ", vergi = " + tax() + " tl" +
-                ", bonus = " + bonus() + " tl" +
-                ", vergi ve bonusla birlikte maaş = " + getNetSalaryWithoutRise() + " tl" +
-                ", maaş artışı = " + raiseSalary() + " tl" +
-                ", toplam maaş = " + totalSalary() + " tl" +
-                '}';
+        return  "\nAdı = " + name  +
+                "\nMaaşı = " + salary +
+                "\nÇalışma Saati = " + workHours +
+                "\nBaşlangıç Yılı = " + hireYear +
+                "\nVergi = " + tax() + " tl" +
+                "\nBonus = " + bonus() + " tl" +
+                "\nVergi ve Bonus ile birlikte maaş = " + getNetSalaryWithoutRise() + " tl" +
+                "\nMaaş artışı = " + raiseSalary() + " tl" +
+                "\nToplam Maaşı = " + totalSalary() + " tl" ;
 
     }
 
